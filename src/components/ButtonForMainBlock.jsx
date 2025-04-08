@@ -1,5 +1,4 @@
 function ButtonForMainBlock({ children, onClick, status, isDisable }) {
-  console.log(isDisable);
   let answerStatus;
   if (status === null) answerStatus = "border-2 border-transparent";
   if (status === "correct") answerStatus = "border-2 border-[#32e2b6]";

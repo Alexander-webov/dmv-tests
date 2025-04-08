@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import ButtonForMainBlock from "./ButtonForMainBlock";
 import MainBlock from "./MainBlock";
+import { Link } from "react-router-dom";
 
 function Question({
   question,
@@ -15,6 +16,7 @@ function Question({
     if (!selectedAnswer) {
       setSelectedAnswer(answer);
       setIsDisable(true);
+      //setCounterCorrectAnswer((prev) => prev + 1)
     }
   }
   function handelIndex() {
@@ -26,18 +28,22 @@ function Question({
   if (!question || !Array.isArray(question.options)) return null;
   return (
     <div className="max-w-full flex flex-col items-center justify-center text-slate-50">
-      <div className="w-full flex items-center justify-between mt-8">
+      <div className="w-full flex items-center justify-between mt-8 ">
         <div>
           Режим экзамена - Вопрос {currentQuestion + 1} из {lengthQuestions}
         </div>
-        <div>15 : 23</div>
+        <div className="bg-gray-500 p-1 rounded-full">15 : 23</div>
       </div>
       <MainBlock title={question.explanation_en}>
         {question.options.map((itemMenu) => {
           let status = null;
+
           if (selectedAnswer) {
             if (itemMenu === question.correct) {
               status = "correct";
+              selectedAnswer === question.correct
+                ? (counterCorrectAnswer = counterCorrectAnswer + 1)
+                : null;
             } else if (itemMenu === selectedAnswer) {
               status = "wrong";
             }
@@ -55,9 +61,23 @@ function Question({
           );
         })}
       </MainBlock>
-      <div className="w-full flex justify-between">
+      <div className="w-full flex justify-between mt-4">
         <span>Завершить </span>
-        <button onClick={handelIndex}>Вперед </button>
+        {currentQuestion + 1 !== lengthQuestions ? (
+          <button
+            onClick={handelIndex}
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          >
+            Вперед{" "}
+          </button>
+        ) : (
+          <Link
+            to="/result"
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          >
+            Смотреть результат
+          </Link>
+        )}
       </div>
     </div>
   );

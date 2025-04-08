@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "question_en": "What should you do in situation 1?",
+    "question_ru": "Что вы должны делать в ситуации 1?",
+    "options": [
+      "Option A for question 1",
+      "Option B for question 1",
+      "Option C for question 1",
+      "Option D for question 1"
+    ],
+    "correct": "Option A for question 1",
+    "explanation_en": "This is the explanation for question 1 in English.",
+    "explanation_ru": "Это объяснение к вопросу 1 на русском."
+  },
+  {
+    "id": 2,
+    "question_en": "What should you do in situation 2?",
+    "question_ru": "Что вы должны делать в ситуации 2?",
+    "options": [
+      "Option A for question 2",
+      "Option B for question 2",
+      "Option C for question 2",
+      "Option D for question 2"
+    ],
+    "correct": "Option A for question 2",
+    "explanation_en": "This is the explanation for question 2 in English.",
+    "explanation_ru": "Это объяснение к вопросу 2 на русском."
+  }
+]
