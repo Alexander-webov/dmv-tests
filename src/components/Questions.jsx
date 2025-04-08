@@ -1,22 +1,32 @@
-import ButtonForMainBlock from "./ButtonForMainBlock";
+import { useState } from "react";
+import { useEffect } from "react";
+import getQuestoins from "../services/getQuestions";
+import Question from "./Question";
 
 function Questions() {
-  const options = [
-    { answer: "answer1" },
-    { answer: "answer2" },
-    { answer: "answer3" },
-    { answer: "answer4" },
-  ];
+  const [questions, setQuestions] = useState([]);
+  const [indexCurrentQuestion, setIndexCurrentQuestion] = useState(0);
+  const lengthQuestions = questions.length;
+  const currentQuestion = indexCurrentQuestion;
+  useEffect(() => {
+    const fetchQuestions = async () => {
+      try {
+        const res = await getQuestoins();
+        setQuestions(res);
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    fetchQuestions();
+  }, []);
+
   return (
-    <ul className="w-full">
-      {options.map((itemMenu) => {
-        return (
-          <ButtonForMainBlock key={itemMenu.answer}>
-            {itemMenu.answer}
-          </ButtonForMainBlock>
-        );
-      })}
-    </ul>
+    <Question
+      setIndexCurrentQuestion={setIndexCurrentQuestion}
+      lengthQuestions={lengthQuestions}
+      currentQuestion={currentQuestion}
+      question={questions[indexCurrentQuestion]}
+    />
   );
 }
 

@@ -5,7 +5,10 @@ import bg from "./assets/images/bg.jpg";
 
 function App() {
   return (
-    <div className="h-screen" style={{ backgroundImage: `url(${bg})` }}>
+    <div
+      className="h-screen  flex flex-col items-center justify-center"
+      style={{ backgroundImage: `url(${bg})` }}
+    >
       <Routes>
         <Route index element={<Home />} />
         <Route path="/exam" element={<Exam />} />

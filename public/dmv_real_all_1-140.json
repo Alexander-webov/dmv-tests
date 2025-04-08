@@ -1,0 +1,1123 @@
+[
+  {
+    "id": 1,
+    "question_en": "What does a red traffic light mean?",
+    "question_ru": "Что означает красный сигнал светофора?",
+    "options": ["Go", "Stop", "Proceed with caution", "Speed up"],
+    "correct": "Stop",
+    "explanation_en": "A red light means you must come to a complete stop before entering the intersection.",
+    "explanation_ru": "Красный свет означает, что вы должны полностью остановиться перед въездом на перекресток."
+  },
+  {
+    "id": 2,
+    "question_en": "What should you do at a stop sign?",
+    "question_ru": "Что вы должны сделать у знака STOP?",
+    "options": [
+      "Slow down",
+      "Stop completely",
+      "Honk before proceeding",
+      "Speed up"
+    ],
+    "correct": "Stop completely",
+    "explanation_en": "You must make a full stop at a stop sign before proceeding.",
+    "explanation_ru": "Вы должны полностью остановиться у знака STOP перед тем, как продолжить движение."
+  },
+  {
+    "id": 3,
+    "question_en": "When approaching a school bus with flashing red lights, you must:",
+    "question_ru": "При приближении к школьному автобусу с мигающими красными огнями вы должны:",
+    "options": [
+      "Proceed slowly",
+      "Stop until the lights stop flashing",
+      "Pass quickly on the left",
+      "Honk before passing"
+    ],
+    "correct": "Stop until the lights stop flashing",
+    "explanation_en": "It is illegal to pass a school bus that is stopped with its red lights flashing.",
+    "explanation_ru": "Обгонять школьный автобус с мигающими красными огнями запрещено. Нужно остановиться до их выключения."
+  },
+  {
+    "id": 4,
+    "question_en": "What does a yield sign mean?",
+    "question_ru": "Что означает знак 'Уступи дорогу'?",
+    "options": [
+      "Come to a full stop",
+      "Let other traffic go first",
+      "Speed up to merge",
+      "Ignore if no traffic"
+    ],
+    "correct": "Let other traffic go first",
+    "explanation_en": "Yield signs indicate that you must let other road users go first.",
+    "explanation_ru": "Знак 'Уступи дорогу' требует пропустить других участников дорожного движения."
+  },
+  {
+    "id": 5,
+    "question_en": "What should you do if an emergency vehicle is approaching with lights and siren on?",
+    "question_ru": "Что делать, если к вам приближается аварийное транспортное средство с сиреной и мигающими огнями?",
+    "options": [
+      "Continue driving normally",
+      "Speed up to get out of the way",
+      "Pull over and stop",
+      "Stop only at an intersection"
+    ],
+    "correct": "Pull over and stop",
+    "explanation_en": "You must pull over to the right and stop for emergency vehicles.",
+    "explanation_ru": "Вы обязаны съехать вправо и остановиться для пропуска аварийного транспорта."
+  },
+
+  {
+    "id": 1,
+    "question_en": "What does a red traffic light mean?",
+    "question_ru": "Что означает красный сигнал светофора?",
+    "options": ["Go", "Stop", "Proceed with caution", "Speed up"],
+    "correct": "Stop",
+    "explanation_en": "A red light means you must come to a complete stop before entering the intersection.",
+    "explanation_ru": "Красный свет означает, что вы должны полностью остановиться перед въездом на перекресток."
+  },
+  {
+    "id": 2,
+    "question_en": "What should you do at a stop sign?",
+    "question_ru": "Что вы должны сделать у знака STOP?",
+    "options": [
+      "Slow down",
+      "Stop completely",
+      "Honk before proceeding",
+      "Speed up"
+    ],
+    "correct": "Stop completely",
+    "explanation_en": "You must make a full stop at a stop sign before proceeding.",
+    "explanation_ru": "Вы должны полностью остановиться у знака STOP перед тем, как продолжить движение."
+  },
+  {
+    "id": 3,
+    "question_en": "When approaching a school bus with flashing red lights, you must:",
+    "question_ru": "При приближении к школьному автобусу с мигающими красными огнями вы должны:",
+    "options": [
+      "Proceed slowly",
+      "Stop until the lights stop flashing",
+      "Pass quickly on the left",
+      "Honk before passing"
+    ],
+    "correct": "Stop until the lights stop flashing",
+    "explanation_en": "It is illegal to pass a school bus that is stopped with its red lights flashing.",
+    "explanation_ru": "Обгонять школьный автобус с мигающими красными огнями запрещено. Нужно остановиться до их выключения."
+  },
+  {
+    "id": 4,
+    "question_en": "What does a yield sign mean?",
+    "question_ru": "Что означает знак 'Уступи дорогу'?",
+    "options": [
+      "Come to a full stop",
+      "Let other traffic go first",
+      "Speed up to merge",
+      "Ignore if no traffic"
+    ],
+    "correct": "Let other traffic go first",
+    "explanation_en": "Yield signs indicate that you must let other road users go first.",
+    "explanation_ru": "Знак 'Уступи дорогу' требует пропустить других участников дорожного движения."
+  },
+  {
+    "id": 5,
+    "question_en": "What should you do if an emergency vehicle is approaching with lights and siren on?",
+    "question_ru": "Что делать, если к вам приближается аварийное транспортное средство с сиреной и мигающими огнями?",
+    "options": [
+      "Continue driving normally",
+      "Speed up to get out of the way",
+      "Pull over and stop",
+      "Stop only at an intersection"
+    ],
+    "correct": "Pull over and stop",
+    "explanation_en": "You must pull over to the right and stop for emergency vehicles.",
+    "explanation_ru": "Вы обязаны съехать вправо и остановиться для пропуска аварийного транспорта."
+  },
+  {
+    "id": 6,
+    "question_en": "What is the legal Blood Alcohol Concentration (BAC) limit for drivers over 21 in NY?",
+    "question_ru": "Каков допустимый уровень алкоголя в крови (BAC) для водителей старше 21 года в штате Нью-Йорк?",
+    "options": ["0.02%", "0.05%", "0.08%", "0.10%"],
+    "correct": "0.08%",
+    "explanation_en": "In NY, it is illegal to drive with a BAC of 0.08% or higher.",
+    "explanation_ru": "В Нью-Йорке запрещено управлять автомобилем с BAC 0.08% или выше."
+  },
+  {
+    "id": 7,
+    "question_en": "Before changing lanes, you should:",
+    "question_ru": "Перед сменой полосы вы должны:",
+    "options": [
+      "Honk to alert other drivers",
+      "Check mirrors and blind spots",
+      "Speed up",
+      "Signal only if there is traffic"
+    ],
+    "correct": "Check mirrors and blind spots",
+    "explanation_en": "Always check mirrors and blind spots before changing lanes.",
+    "explanation_ru": "Перед сменой полосы всегда проверяйте зеркала и слепые зоны."
+  },
+  {
+    "id": 8,
+    "question_en": "A flashing yellow light means:",
+    "question_ru": "Мигающий желтый сигнал светофора означает:",
+    "options": ["Stop", "Go", "Proceed with caution", "Turn only"],
+    "correct": "Proceed with caution",
+    "explanation_en": "A flashing yellow light means proceed with caution.",
+    "explanation_ru": "Мигающий жёлтый сигнал означает продолжать движение с осторожностью."
+  },
+  {
+    "id": 9,
+    "question_en": "If two vehicles arrive at an intersection at the same time, who has the right of way?",
+    "question_ru": "Если два автомобиля подъехали к перекрестку одновременно, кто имеет право проезда?",
+    "options": [
+      "The vehicle on the left",
+      "The vehicle on the right",
+      "The larger vehicle",
+      "The faster vehicle"
+    ],
+    "correct": "The vehicle on the right",
+    "explanation_en": "At an intersection, the driver on the right has the right of way.",
+    "explanation_ru": "На перекрестке преимущество имеет водитель, находящийся справа."
+  },
+  {
+    "id": 10,
+    "question_en": "What should you do if you miss your exit on a highway?",
+    "question_ru": "Что делать, если вы пропустили свой съезд с шоссе?",
+    "options": [
+      "Back up carefully",
+      "Make a U-turn",
+      "Drive to the next exit",
+      "Stop and wait for traffic to clear"
+    ],
+    "correct": "Drive to the next exit",
+    "explanation_en": "Never back up or make a U-turn on a highway. Go to the next exit.",
+    "explanation_ru": "Никогда не разворачивайтесь и не сдавайте назад на шоссе. Доезжайте до следующего съезда."
+  },
+  {
+    "id": 11,
+    "question_en": "What does a pentagon-shaped sign indicate?",
+    "question_ru": "Что обозначает знак в форме пятиугольника?",
+    "options": ["School zone", "Stop", "Yield", "Railroad crossing"],
+    "correct": "School zone",
+    "explanation_en": "Pentagon-shaped signs warn of school zones and crossings.",
+    "explanation_ru": "Знаки в форме пятиугольника предупреждают о школьных зонах и переходах."
+  },
+  {
+    "id": 12,
+    "question_en": "What should you do when you see a pedestrian with a white cane?",
+    "question_ru": "Что нужно делать, если вы видите пешехода с белой тростью?",
+    "options": [
+      "Honk to let them know you’re there",
+      "Continue driving",
+      "Stop and yield the right of way",
+      "Pass slowly"
+    ],
+    "correct": "Stop and yield the right of way",
+    "explanation_en": "A white cane indicates a blind pedestrian. You must stop and yield.",
+    "explanation_ru": "Белая трость означает, что пешеход слепой. Вы обязаны остановиться и уступить."
+  },
+  {
+    "id": 13,
+    "question_en": "What does a broken yellow line mean?",
+    "question_ru": "Что означает прерывистая жёлтая линия?",
+    "options": [
+      "No passing allowed",
+      "You may pass if it’s safe",
+      "Stop ahead",
+      "Two-way traffic ends"
+    ],
+    "correct": "You may pass if it’s safe",
+    "explanation_en": "A broken yellow line means you may pass if the way is clear.",
+    "explanation_ru": "Прерывистая жёлтая линия означает, что обгон разрешён, если это безопасно."
+  },
+  {
+    "id": 14,
+    "question_en": "When driving in fog, you should use:",
+    "question_ru": "При движении в тумане вы должны использовать:",
+    "options": [
+      "High-beam headlights",
+      "Low-beam headlights",
+      "Hazard lights",
+      "No lights"
+    ],
+    "correct": "Low-beam headlights",
+    "explanation_en": "Use low-beam headlights in fog to reduce glare.",
+    "explanation_ru": "Используйте ближний свет фар в тумане, чтобы уменьшить блики."
+  },
+  {
+    "id": 15,
+    "question_en": "You may not park within how many feet of a fire hydrant?",
+    "question_ru": "На каком расстоянии от пожарного гидранта запрещена парковка?",
+    "options": ["5 feet", "10 feet", "15 feet", "20 feet"],
+    "correct": "15 feet",
+    "explanation_en": "You must not park within 15 feet of a fire hydrant.",
+    "explanation_ru": "Парковка запрещена ближе чем за 15 футов от пожарного гидранта."
+  },
+  {
+    "id": 21,
+    "question_en": "What does a red and white triangular sign at an intersection mean?",
+    "question_ru": "Что означает красно-белый треугольный знак на перекрестке?",
+    "options": ["Stop", "Yield", "Do not enter", "Speed limit"],
+    "correct": "Yield",
+    "explanation_en": "A red and white triangular sign means you must yield to other vehicles or pedestrians.",
+    "explanation_ru": "Красно-белый треугольный знак означает, что вы должны уступить дорогу другим транспортным средствам или пешеходам."
+  },
+  {
+    "id": 22,
+    "question_en": "If your vehicle starts to hydroplane, you should:",
+    "question_ru": "Если ваш автомобиль начал аквапланировать, вы должны:",
+    "options": [
+      "Apply the brakes firmly",
+      "Steer straight and ease off the gas",
+      "Turn the wheel quickly",
+      "Accelerate to gain control"
+    ],
+    "correct": "Steer straight and ease off the gas",
+    "explanation_en": "Hydroplaning occurs on wet roads. You should keep the wheel steady and ease off the gas.",
+    "explanation_ru": "Аквапланирование происходит на мокрой дороге. Удерживайте руль прямо и убавьте газ."
+  },
+  {
+    "id": 23,
+    "question_en": "What should you do at a flashing red light?",
+    "question_ru": "Что нужно делать на мигающий красный сигнал светофора?",
+    "options": ["Slow down", "Yield", "Stop completely", "Ignore it"],
+    "correct": "Stop completely",
+    "explanation_en": "A flashing red light is treated like a stop sign — come to a full stop.",
+    "explanation_ru": "Мигающий красный свет действует как знак STOP — сделайте полную остановку."
+  },
+  {
+    "id": 24,
+    "question_en": "What does a diamond-shaped traffic sign typically indicate?",
+    "question_ru": "Что обычно указывает дорожный знак в форме ромба?",
+    "options": [
+      "Railroad crossing",
+      "Warning or caution",
+      "Regulatory information",
+      "Stop"
+    ],
+    "correct": "Warning or caution",
+    "explanation_en": "Diamond-shaped signs are used for warnings and cautionary messages.",
+    "explanation_ru": "Знаки в форме ромба используются для предупреждений и обозначения опасности."
+  },
+  {
+    "id": 25,
+    "question_en": "When can you pass another vehicle on the right?",
+    "question_ru": "Когда можно обгонять другое транспортное средство справа?",
+    "options": [
+      "On a one-way street",
+      "When the other vehicle is turning left",
+      "Never",
+      "On narrow roads"
+    ],
+    "correct": "When the other vehicle is turning left",
+    "explanation_en": "You may pass on the right when the vehicle ahead is making a left turn and there is room to do so safely.",
+    "explanation_ru": "Можно обогнать справа, если автомобиль впереди поворачивает налево и есть достаточно места для безопасного обгона."
+  },
+  {
+    "id": 21,
+    "question_en": "What does a red and white triangular sign at an intersection mean?",
+    "question_ru": "Что означает красно-белый треугольный знак на перекрестке?",
+    "options": ["Stop", "Yield", "Do not enter", "Speed limit"],
+    "correct": "Yield",
+    "explanation_en": "A red and white triangular sign means you must yield to other vehicles or pedestrians.",
+    "explanation_ru": "Красно-белый треугольный знак означает, что вы должны уступить дорогу другим транспортным средствам или пешеходам."
+  },
+  {
+    "id": 22,
+    "question_en": "If your vehicle starts to hydroplane, you should:",
+    "question_ru": "Если ваш автомобиль начал аквапланировать, вы должны:",
+    "options": [
+      "Apply the brakes firmly",
+      "Steer straight and ease off the gas",
+      "Turn the wheel quickly",
+      "Accelerate to gain control"
+    ],
+    "correct": "Steer straight and ease off the gas",
+    "explanation_en": "Hydroplaning occurs on wet roads. You should keep the wheel steady and ease off the gas.",
+    "explanation_ru": "Аквапланирование происходит на мокрой дороге. Удерживайте руль прямо и убавьте газ."
+  },
+  {
+    "id": 23,
+    "question_en": "What should you do at a flashing red light?",
+    "question_ru": "Что нужно делать на мигающий красный сигнал светофора?",
+    "options": ["Slow down", "Yield", "Stop completely", "Ignore it"],
+    "correct": "Stop completely",
+    "explanation_en": "A flashing red light is treated like a stop sign — come to a full stop.",
+    "explanation_ru": "Мигающий красный свет действует как знак STOP — сделайте полную остановку."
+  },
+  {
+    "id": 24,
+    "question_en": "What does a diamond-shaped traffic sign typically indicate?",
+    "question_ru": "Что обычно указывает дорожный знак в форме ромба?",
+    "options": [
+      "Railroad crossing",
+      "Warning or caution",
+      "Regulatory information",
+      "Stop"
+    ],
+    "correct": "Warning or caution",
+    "explanation_en": "Diamond-shaped signs are used for warnings and cautionary messages.",
+    "explanation_ru": "Знаки в форме ромба используются для предупреждений и обозначения опасности."
+  },
+  {
+    "id": 25,
+    "question_en": "When can you pass another vehicle on the right?",
+    "question_ru": "Когда можно обгонять другое транспортное средство справа?",
+    "options": [
+      "On a one-way street",
+      "When the other vehicle is turning left",
+      "Never",
+      "On narrow roads"
+    ],
+    "correct": "When the other vehicle is turning left",
+    "explanation_en": "You may pass on the right when the vehicle ahead is making a left turn and there is room to do so safely.",
+    "explanation_ru": "Можно обогнать справа, если автомобиль впереди поворачивает налево и есть достаточно места для безопасного обгона."
+  },
+  {
+    "id": 26,
+    "question_en": "When approaching a railroad crossing with flashing lights, you must:",
+    "question_ru": "При приближении к железнодорожному переезду с мигающими огнями вы должны:",
+    "options": [
+      "Slow down and proceed carefully",
+      "Stop and proceed only when safe",
+      "Speed up to cross quickly",
+      "Ignore the lights if no train is visible"
+    ],
+    "correct": "Stop and proceed only when safe",
+    "explanation_en": "Flashing lights at a railroad crossing require you to stop until it is safe to proceed.",
+    "explanation_ru": "Мигающие огни на переезде означают, что вы должны остановиться и ждать, пока будет безопасно проехать."
+  },
+  {
+    "id": 27,
+    "question_en": "What is the hand signal for a left turn?",
+    "question_ru": "Какой ручной сигнал обозначает поворот налево?",
+    "options": [
+      "Left arm straight out",
+      "Left arm bent upward",
+      "Left arm bent downward",
+      "Right arm straight out"
+    ],
+    "correct": "Left arm straight out",
+    "explanation_en": "Extending your left arm straight out indicates a left turn.",
+    "explanation_ru": "Прямо вытянутая левая рука сигнализирует о повороте налево."
+  },
+  {
+    "id": 28,
+    "question_en": "You are required to dim your high beams when:",
+    "question_ru": "Вы обязаны переключить дальний свет на ближний, когда:",
+    "options": [
+      "Within 500 feet of an oncoming vehicle",
+      "Driving in city traffic",
+      "Approaching a hill",
+      "Following a large truck"
+    ],
+    "correct": "Within 500 feet of an oncoming vehicle",
+    "explanation_en": "High beams must be dimmed within 500 feet of an oncoming vehicle.",
+    "explanation_ru": "Дальний свет следует переключить на ближний на расстоянии 500 футов от встречного автомобиля."
+  },
+  {
+    "id": 29,
+    "question_en": "What does a yellow curb indicate?",
+    "question_ru": "Что обозначает жёлтый бордюр?",
+    "options": ["No stopping", "Loading zone", "Handicap parking", "Fire lane"],
+    "correct": "Loading zone",
+    "explanation_en": "Yellow curbs usually indicate loading and unloading zones.",
+    "explanation_ru": "Жёлтый бордюр обычно обозначает зону загрузки/выгрузки."
+  },
+  {
+    "id": 30,
+    "question_en": "What is the penalty for driving without insurance in NY?",
+    "question_ru": "Какое наказание за вождение без страховки в Нью-Йорке?",
+    "options": [
+      "Fine and points on your license",
+      "Suspension of your driver’s license",
+      "Jail time only",
+      "No penalty if it’s your first offense"
+    ],
+    "correct": "Suspension of your driver’s license",
+    "explanation_en": "Driving without insurance may result in suspension of your license and registration.",
+    "explanation_ru": "Вождение без страховки может привести к приостановке действия ваших водительских прав и регистрации."
+  },
+  {
+    "id": 31,
+    "question_en": "You must stop for a school bus when:",
+    "question_ru": "Вы должны остановиться перед школьным автобусом, когда:",
+    "options": [
+      "It is loading or unloading children",
+      "It is on the opposite side of a divided highway",
+      "It is turning right",
+      "You are in a parking lot"
+    ],
+    "correct": "It is loading or unloading children",
+    "explanation_en": "You must stop for school buses that are loading or unloading children.",
+    "explanation_ru": "Вы должны остановиться, если школьный автобус загружает или высаживает детей."
+  },
+  {
+    "id": 32,
+    "question_en": "A no standing sign means you may stop only:",
+    "question_ru": "Знак 'Остановка запрещена' означает, что вы можете остановиться только:",
+    "options": [
+      "To load or unload passengers",
+      "To check your phone",
+      "To wait for someone",
+      "To park for a few minutes"
+    ],
+    "correct": "To load or unload passengers",
+    "explanation_en": "No standing means you may stop temporarily to pick up or drop off passengers.",
+    "explanation_ru": "Остановка разрешена только для посадки или высадки пассажиров."
+  },
+  {
+    "id": 33,
+    "question_en": "When a traffic signal is not working, you should:",
+    "question_ru": "Если светофор не работает, вы должны:",
+    "options": [
+      "Treat the intersection as a four-way stop",
+      "Proceed as if the light is green",
+      "Speed up to avoid confusion",
+      "Honk to alert others"
+    ],
+    "correct": "Treat the intersection as a four-way stop",
+    "explanation_en": "A non-working traffic light must be treated as a 4-way stop.",
+    "explanation_ru": "Неработающий светофор следует воспринимать как перекрёсток со знаком STOP для всех направлений."
+  },
+  {
+    "id": 34,
+    "question_en": "What does a circular road sign mean?",
+    "question_ru": "Что обозначает круглый дорожный знак?",
+    "options": [
+      "Railroad crossing ahead",
+      "Hospital nearby",
+      "Speed limit zone",
+      "Rest area ahead"
+    ],
+    "correct": "Railroad crossing ahead",
+    "explanation_en": "Circular signs are used exclusively for railroad crossings.",
+    "explanation_ru": "Круглые знаки используются только для обозначения железнодорожных переездов."
+  },
+  {
+    "id": 35,
+    "question_en": "How far must you park from a crosswalk at an intersection?",
+    "question_ru": "На каком расстоянии нужно парковаться от пешеходного перехода на перекрестке?",
+    "options": ["5 feet", "10 feet", "20 feet", "25 feet"],
+    "correct": "20 feet",
+    "explanation_en": "You must not park within 20 feet of a crosswalk at an intersection.",
+    "explanation_ru": "Парковка запрещена ближе чем за 20 футов от пешеходного перехода на перекрёстке."
+  },
+  {
+    "id": 36,
+    "question_en": "What is the correct action for situation 36 according to DMV rules?",
+    "question_ru": "Какое правильное действие в ситуации 36 согласно правилам DMV?",
+    "options": [
+      "Option A for question 36",
+      "Option B for question 36",
+      "Option C for question 36",
+      "Option D for question 36"
+    ],
+    "correct": "Option A for question 36",
+    "explanation_en": "This is an explanation for DMV question 36.",
+    "explanation_ru": "Это объяснение к вопросу DMV номер 36."
+  },
+  {
+    "id": 37,
+    "question_en": "What is the correct action for situation 37 according to DMV rules?",
+    "question_ru": "Какое правильное действие в ситуации 37 согласно правилам DMV?",
+    "options": [
+      "Option A for question 37",
+      "Option B for question 37",
+      "Option C for question 37",
+      "Option D for question 37"
+    ],
+    "correct": "Option A for question 37",
+    "explanation_en": "This is an explanation for DMV question 37.",
+    "explanation_ru": "Это объяснение к вопросу DMV номер 37."
+  },
+  {
+    "id": 38,
+    "question_en": "What is the correct action for situation 38 according to DMV rules?",
+    "question_ru": "Какое правильное действие в ситуации 38 согласно правилам DMV?",
+    "options": [
+      "Option A for question 38",
+      "Option B for question 38",
+      "Option C for question 38",
+      "Option D for question 38"
+    ],
+    "correct": "Option A for question 38",
+    "explanation_en": "This is an explanation for DMV question 38.",
+    "explanation_ru": "Это объяснение к вопросу DMV номер 38."
+  },
+  {
+    "id": 39,
+    "question_en": "What is the correct action for situation 39 according to DMV rules?",
+    "question_ru": "Какое правильное действие в ситуации 39 согласно правилам DMV?",
+    "options": [
+      "Option A for question 39",
+      "Option B for question 39",
+      "Option C for question 39",
+      "Option D for question 39"
+    ],
+    "correct": "Option A for question 39",
+    "explanation_en": "This is an explanation for DMV question 39.",
+    "explanation_ru": "Это объяснение к вопросу DMV номер 39."
+  },
+  {
+    "id": 40,
+    "question_en": "What is the correct action for situation 40 according to DMV rules?",
+    "question_ru": "Какое правильное действие в ситуации 40 согласно правилам DMV?",
+    "options": [
+      "Option A for question 40",
+      "Option B for question 40",
+      "Option C for question 40",
+      "Option D for question 40"
+    ],
+    "correct": "Option A for question 40",
+    "explanation_en": "This is an explanation for DMV question 40.",
+    "explanation_ru": "Это объяснение к вопросу DMV номер 40."
+  },
+  {
+    "id": 61,
+    "question_en": "What should you do if you see a pedestrian crossing the street in a marked crosswalk?",
+    "question_ru": "Что вы должны сделать, если видите пешехода, переходящего дорогу по обозначенному переходу?",
+    "options": [
+      "Honk to let them know you're coming",
+      "Stop and let them cross",
+      "Continue driving slowly",
+      "Flash your headlights"
+    ],
+    "correct": "Stop and let them cross",
+    "explanation_en": "You must always yield to pedestrians in a crosswalk.",
+    "explanation_ru": "Вы обязаны уступить дорогу пешеходу на переходе."
+  },
+  {
+    "id": 62,
+    "question_en": "What is the penalty for fleeing from a police officer?",
+    "question_ru": "Какое наказание за попытку скрыться от полицейского?",
+    "options": [
+      "Warning",
+      "Fine and points",
+      "Jail time and license suspension",
+      "No penalty if no one is hurt"
+    ],
+    "correct": "Jail time and license suspension",
+    "explanation_en": "Fleeing from a police officer can result in jail and loss of driving privileges.",
+    "explanation_ru": "Попытка скрыться от полиции может привести к тюремному заключению и лишению прав."
+  },
+  {
+    "id": 63,
+    "question_en": "You must turn your headlights on when visibility is less than:",
+    "question_ru": "Вы должны включить фары, если видимость менее чем:",
+    "options": ["1,000 feet", "500 feet", "200 feet", "100 feet"],
+    "correct": "500 feet",
+    "explanation_en": "Headlights must be used when visibility is less than 500 feet.",
+    "explanation_ru": "Фары должны быть включены при видимости менее 500 футов."
+  },
+  {
+    "id": 64,
+    "question_en": "What does a no U-turn sign mean?",
+    "question_ru": "Что означает знак 'Поворот запрещён'?",
+    "options": [
+      "Left turn prohibited",
+      "U-turn allowed only at night",
+      "You cannot make a U-turn",
+      "U-turn required"
+    ],
+    "correct": "You cannot make a U-turn",
+    "explanation_en": "A no U-turn sign indicates that turning around is not allowed at that location.",
+    "explanation_ru": "Знак 'Поворот запрещён' означает, что разворачиваться в этом месте нельзя."
+  },
+  {
+    "id": 65,
+    "question_en": "You see a traffic sign shaped like a circle. This means:",
+    "question_ru": "Вы видите дорожный знак круглой формы. Это означает:",
+    "options": [
+      "Hospital ahead",
+      "Do not enter",
+      "Railroad crossing ahead",
+      "Speed limit change ahead"
+    ],
+    "correct": "Railroad crossing ahead",
+    "explanation_en": "Circular signs are used only for railroad crossings.",
+    "explanation_ru": "Круглые знаки используются исключительно для обозначения железнодорожных переездов."
+  },
+  {
+    "id": 66,
+    "question_en": "When driving in fog, you should use:",
+    "question_ru": "При движении в тумане вы должны использовать:",
+    "options": [
+      "High-beam headlights",
+      "Low-beam headlights",
+      "Hazard lights",
+      "Parking lights only"
+    ],
+    "correct": "Low-beam headlights",
+    "explanation_en": "Use low beams in fog to reduce glare and improve visibility.",
+    "explanation_ru": "В тумане используйте ближний свет фар, чтобы уменьшить блики и улучшить видимость."
+  },
+  {
+    "id": 67,
+    "question_en": "If a tire blows out, the first thing to do is:",
+    "question_ru": "Если у вас лопнула шина, первое, что нужно сделать:",
+    "options": [
+      "Brake hard immediately",
+      "Take your foot off the gas and steer straight",
+      "Turn the wheel quickly",
+      "Accelerate to regain control"
+    ],
+    "correct": "Take your foot off the gas and steer straight",
+    "explanation_en": "Slowly ease off the gas and keep the car going straight.",
+    "explanation_ru": "Плавно уберите ногу с газа и держите машину прямо."
+  },
+  {
+    "id": 68,
+    "question_en": "You may cross a double yellow line to pass another vehicle if:",
+    "question_ru": "Вы можете пересечь двойную жёлтую линию, чтобы обогнать, если:",
+    "options": [
+      "There is a broken line on your side",
+      "You signal first",
+      "There are no other cars nearby",
+      "You are in a hurry"
+    ],
+    "correct": "There is a broken line on your side",
+    "explanation_en": "Passing is allowed when the broken yellow line is on your side of the road.",
+    "explanation_ru": "Обгон разрешён, если прерывистая жёлтая линия находится на вашей стороне дороги."
+  },
+  {
+    "id": 69,
+    "question_en": "At an uncontrolled intersection, you must:",
+    "question_ru": "На нерегулируемом перекрёстке вы должны:",
+    "options": [
+      "Speed up to get through quickly",
+      "Yield to vehicles on the right",
+      "Always stop",
+      "Assume you have the right of way"
+    ],
+    "correct": "Yield to vehicles on the right",
+    "explanation_en": "At an uncontrolled intersection, you must yield to the vehicle on your right.",
+    "explanation_ru": "На нерегулируемом перекрестке вы должны уступить автомобилю, находящемуся справа."
+  },
+  {
+    "id": 70,
+    "question_en": "When driving through a work zone, you should:",
+    "question_ru": "При проезде через зону дорожных работ вы должны:",
+    "options": [
+      "Speed up to pass workers quickly",
+      "Expect the unexpected",
+      "Change lanes quickly",
+      "Ignore posted signs"
+    ],
+    "correct": "Expect the unexpected",
+    "explanation_en": "Work zones require extra caution due to changing conditions and people working.",
+    "explanation_ru": "В зонах дорожных работ нужно проявлять повышенное внимание — возможны неожиданные ситуации."
+  },
+  {
+    "id": 81,
+    "question_en": "What should you do if your accelerator sticks while driving?",
+    "question_ru": "Что делать, если во время движения заело педаль газа?",
+    "options": [
+      "Turn off the ignition immediately",
+      "Shift to neutral and apply brakes",
+      "Pull the gas pedal with your foot",
+      "Pump the accelerator"
+    ],
+    "correct": "Shift to neutral and apply brakes",
+    "explanation_en": "If the accelerator sticks, shift to neutral and stop safely.",
+    "explanation_ru": "Если педаль газа заела — переключитесь на нейтраль и остановитесь безопасно."
+  },
+  {
+    "id": 82,
+    "question_en": "When is it legal to park in front of a private driveway?",
+    "question_ru": "Когда разрешено парковаться перед частным выездом?",
+    "options": [
+      "Never",
+      "Only during the day",
+      "With the owner's permission",
+      "On weekends"
+    ],
+    "correct": "Never",
+    "explanation_en": "It is illegal to block a private driveway.",
+    "explanation_ru": "Запрещено блокировать частный выезд."
+  },
+  {
+    "id": 83,
+    "question_en": "When entering a freeway, you should:",
+    "question_ru": "При въезде на автостраду вы должны:",
+    "options": [
+      "Slow down and merge",
+      "Stop and check traffic",
+      "Speed up to match traffic",
+      "Use your horn"
+    ],
+    "correct": "Speed up to match traffic",
+    "explanation_en": "Accelerate to match the speed of vehicles on the freeway when merging.",
+    "explanation_ru": "Нужно ускориться до скорости потока при въезде на автостраду."
+  },
+  {
+    "id": 84,
+    "question_en": "To avoid being in a truck’s blind spot, you should:",
+    "question_ru": "Чтобы избежать попадания в слепую зону грузовика, вы должны:",
+    "options": [
+      "Stay directly behind it",
+      "Drive on its left side",
+      "Avoid staying alongside for too long",
+      "Flash your headlights"
+    ],
+    "correct": "Avoid staying alongside for too long",
+    "explanation_en": "Truck blind spots are large. Don’t linger beside them.",
+    "explanation_ru": "Слепые зоны у грузовиков большие. Не задерживайтесь сбоку от них."
+  },
+  {
+    "id": 85,
+    "question_en": "What should you do when driving near bicyclists?",
+    "question_ru": "Что следует делать при движении рядом с велосипедистами?",
+    "options": [
+      "Pass closely",
+      "Honk to alert them",
+      "Give them extra room",
+      "Ignore them"
+    ],
+    "correct": "Give them extra room",
+    "explanation_en": "Always give bicyclists space when passing.",
+    "explanation_ru": "При обгоне всегда оставляйте велосипедистам дополнительное пространство."
+  },
+  {
+    "id": 86,
+    "question_en": "When approaching a roundabout, you must:",
+    "question_ru": "При подъезде к круговому перекрестку вы должны:",
+    "options": [
+      "Yield to traffic already in the roundabout",
+      "Always stop",
+      "Enter quickly to avoid slowing others",
+      "Honk before entering"
+    ],
+    "correct": "Yield to traffic already in the roundabout",
+    "explanation_en": "You must yield to all traffic already inside the roundabout.",
+    "explanation_ru": "Вы обязаны уступить дорогу всем, кто уже находится на круговом перекрестке."
+  },
+  {
+    "id": 87,
+    "question_en": "A flashing yellow light at an intersection means:",
+    "question_ru": "Мигающий жёлтый сигнал на перекрёстке означает:",
+    "options": [
+      "Stop completely",
+      "Proceed with caution",
+      "Speed up",
+      "Turn left only"
+    ],
+    "correct": "Proceed with caution",
+    "explanation_en": "Flashing yellow lights warn to proceed with caution.",
+    "explanation_ru": "Мигающий жёлтый свет — двигайтесь с осторожностью."
+  },
+  {
+    "id": 88,
+    "question_en": "Driving under the influence (DUI) is defined as:",
+    "question_ru": "Вождение в нетрезвом виде (DUI) определяется как:",
+    "options": [
+      "Having a BAC of 0.05%",
+      "Having a BAC of 0.08% or higher",
+      "Drinking any amount of alcohol",
+      "Drinking coffee while driving"
+    ],
+    "correct": "Having a BAC of 0.08% or higher",
+    "explanation_en": "DUI is defined as having a Blood Alcohol Concentration (BAC) of 0.08% or more.",
+    "explanation_ru": "DUI — уровень алкоголя в крови 0.08% и выше."
+  },
+  {
+    "id": 89,
+    "question_en": "What is the hand signal for slowing down or stopping?",
+    "question_ru": "Какой ручной сигнал обозначает замедление или остановку?",
+    "options": [
+      "Left arm straight out",
+      "Left arm bent upward",
+      "Left arm bent downward",
+      "Right arm bent upward"
+    ],
+    "correct": "Left arm bent downward",
+    "explanation_en": "Left arm down at the elbow indicates slowing down or stopping.",
+    "explanation_ru": "Левая рука, согнутая вниз — сигнал торможения или остановки."
+  },
+  {
+    "id": 90,
+    "question_en": "What should you do when an emergency vehicle is approaching with its lights and sirens on?",
+    "question_ru": "Что делать, если приближается аварийный транспорт с сиреной и огнями?",
+    "options": [
+      "Continue driving at the same speed",
+      "Pull over to the right and stop",
+      "Speed up to stay ahead",
+      "Stop in the left lane"
+    ],
+    "correct": "Pull over to the right and stop",
+    "explanation_en": "Always pull over to the right and stop for emergency vehicles.",
+    "explanation_ru": "Всегда съезжайте вправо и останавливайтесь при приближении аварийного транспорта."
+  },
+  {
+    "id": 101,
+    "question_en": "If you see an orange sign with black letters, it usually means:",
+    "question_ru": "Если вы видите оранжевый знак с чёрными буквами, это обычно означает:",
+    "options": [
+      "Construction zone",
+      "School zone",
+      "Railroad crossing",
+      "Hospital zone"
+    ],
+    "correct": "Construction zone",
+    "explanation_en": "Orange signs with black letters indicate construction or maintenance areas.",
+    "explanation_ru": "Оранжевые знаки с чёрными буквами обозначают зону строительства или ремонта."
+  },
+  {
+    "id": 102,
+    "question_en": "To avoid highway hypnosis, you should:",
+    "question_ru": "Чтобы избежать гипноза шоссе, вы должны:",
+    "options": [
+      "Drive with windows down",
+      "Stop often and rest",
+      "Stare at the road continuously",
+      "Drive late at night"
+    ],
+    "correct": "Stop often and rest",
+    "explanation_en": "Taking frequent breaks helps avoid highway hypnosis.",
+    "explanation_ru": "Частые остановки и отдых помогают избежать гипноза шоссе."
+  },
+  {
+    "id": 103,
+    "question_en": "What is a safe following distance under normal driving conditions?",
+    "question_ru": "Какое безопасное расстояние между автомобилями при обычных условиях движения?",
+    "options": [
+      "1 second",
+      "2 seconds",
+      "3 seconds or more",
+      "It doesn’t matter"
+    ],
+    "correct": "3 seconds or more",
+    "explanation_en": "A 3-second gap helps maintain a safe following distance.",
+    "explanation_ru": "Интервал в 3 секунды обеспечивает безопасную дистанцию."
+  },
+  {
+    "id": 104,
+    "question_en": "When driving on icy roads, you should:",
+    "question_ru": "При движении по обледенелым дорогам вы должны:",
+    "options": [
+      "Brake hard",
+      "Drive at normal speed",
+      "Reduce speed and increase following distance",
+      "Use high beams"
+    ],
+    "correct": "Reduce speed and increase following distance",
+    "explanation_en": "Drive slower and leave more space in icy conditions.",
+    "explanation_ru": "В гололёд следует снизить скорость и увеличить дистанцию."
+  },
+  {
+    "id": 105,
+    "question_en": "If your vehicle begins to skid, you should:",
+    "question_ru": "Если ваш автомобиль начинает скользить, вы должны:",
+    "options": [
+      "Turn the steering wheel in the opposite direction of the skid",
+      "Take your hands off the wheel",
+      "Turn in the direction you want the car to go",
+      "Accelerate"
+    ],
+    "correct": "Turn in the direction you want the car to go",
+    "explanation_en": "Steer in the direction you want the front wheels to go during a skid.",
+    "explanation_ru": "Поворачивайте руль в том направлении, в котором вы хотите двигаться."
+  },
+  {
+    "id": 106,
+    "question_en": "If you are involved in a minor crash with no injuries, you should:",
+    "question_ru": "Если вы попали в небольшую аварию без пострадавших, вы должны:",
+    "options": [
+      "Leave the scene immediately",
+      "Stop and exchange information",
+      "Call your mechanic",
+      "Continue driving"
+    ],
+    "correct": "Stop and exchange information",
+    "explanation_en": "Always stop and exchange info after a minor accident.",
+    "explanation_ru": "После незначительной аварии вы обязаны остановиться и обменяться информацией."
+  },
+  {
+    "id": 107,
+    "question_en": "A yellow diamond-shaped sign usually means:",
+    "question_ru": "Жёлтый знак в форме ромба обычно означает:",
+    "options": ["Stop", "Caution or warning", "Hospital ahead", "Speed zone"],
+    "correct": "Caution or warning",
+    "explanation_en": "Diamond-shaped yellow signs are used for general warnings.",
+    "explanation_ru": "Жёлтые ромбовидные знаки используются для обозначения предупреждений."
+  },
+  {
+    "id": 108,
+    "question_en": "If your engine stalls while you are in traffic, you should:",
+    "question_ru": "Если двигатель заглох в потоке машин, вы должны:",
+    "options": [
+      "Push your car to the side",
+      "Remain in the vehicle and turn on hazard lights",
+      "Honk continuously",
+      "Abandon the vehicle"
+    ],
+    "correct": "Remain in the vehicle and turn on hazard lights",
+    "explanation_en": "Stay inside and alert others by turning on hazard lights.",
+    "explanation_ru": "Оставайтесь в машине и включите аварийку, чтобы предупредить других водителей."
+  },
+  {
+    "id": 109,
+    "question_en": "Before changing lanes, you should:",
+    "question_ru": "Перед сменой полосы вы должны:",
+    "options": [
+      "Honk to warn other drivers",
+      "Check mirrors and blind spots",
+      "Flash your headlights",
+      "Speed up rapidly"
+    ],
+    "correct": "Check mirrors and blind spots",
+    "explanation_en": "Check mirrors and blind spots before changing lanes.",
+    "explanation_ru": "Перед сменой полосы обязательно проверьте зеркала и слепые зоны."
+  },
+  {
+    "id": 110,
+    "question_en": "Driving too slowly is:",
+    "question_ru": "Езда слишком медленно — это:",
+    "options": [
+      "Safe in all conditions",
+      "Only allowed in school zones",
+      "Sometimes just as dangerous as speeding",
+      "Required during the day"
+    ],
+    "correct": "Sometimes just as dangerous as speeding",
+    "explanation_en": "Driving too slowly can disrupt traffic and be unsafe.",
+    "explanation_ru": "Слишком медленная езда может мешать движению и быть опасной, как и превышение скорости."
+  },
+  {
+    "id": 121,
+    "question_en": "What does a red X above a lane indicate?",
+    "question_ru": "Что означает красный X над полосой движения?",
+    "options": [
+      "The lane is open",
+      "The lane is closed",
+      "Turn only lane",
+      "Reserved for buses"
+    ],
+    "correct": "The lane is closed",
+    "explanation_en": "A red X means the lane is closed to traffic.",
+    "explanation_ru": "Красный X означает, что полоса закрыта для движения."
+  },
+  {
+    "id": 122,
+    "question_en": "On a two-lane road, you may pass another vehicle on the right only if:",
+    "question_ru": "На двухполосной дороге обгон справа разрешён только если:",
+    "options": [
+      "The other vehicle is turning left",
+      "There’s a bicycle lane",
+      "The road is wet",
+      "It’s a holiday"
+    ],
+    "correct": "The other vehicle is turning left",
+    "explanation_en": "Passing on the right is allowed only when the other vehicle is turning left and there is enough space.",
+    "explanation_ru": "Обгон справа возможен только если впереди идущий автомобиль поворачивает налево и есть место для обгона."
+  },
+  {
+    "id": 123,
+    "question_en": "What does a yellow arrow signal mean?",
+    "question_ru": "Что означает жёлтая стрелка на светофоре?",
+    "options": [
+      "You must speed up",
+      "The protected turning time is ending",
+      "You can turn freely",
+      "Do not turn"
+    ],
+    "correct": "The protected turning time is ending",
+    "explanation_en": "A yellow arrow means your protected turn is ending — prepare to stop.",
+    "explanation_ru": "Жёлтая стрелка означает, что защищённая фаза поворота заканчивается — готовьтесь остановиться."
+  },
+  {
+    "id": 124,
+    "question_en": "A solid white line between lanes of traffic means:",
+    "question_ru": "Сплошная белая линия между полосами означает:",
+    "options": [
+      "You may change lanes freely",
+      "Stay in your lane",
+      "It is a passing zone",
+      "You must stop"
+    ],
+    "correct": "Stay in your lane",
+    "explanation_en": "Solid white lines indicate lane changes are discouraged.",
+    "explanation_ru": "Сплошная белая линия означает, что лучше не менять полосу движения."
+  },
+  {
+    "id": 125,
+    "question_en": "When must you stop for a stopped school bus with flashing red lights?",
+    "question_ru": "Когда вы должны остановиться перед школьным автобусом с мигающими красными огнями?",
+    "options": [
+      "Only if you’re behind it",
+      "Only if children are crossing",
+      "From both directions unless separated by a median",
+      "Only in school zones"
+    ],
+    "correct": "From both directions unless separated by a median",
+    "explanation_en": "You must stop from both directions unless there's a physical divider.",
+    "explanation_ru": "Вы должны остановиться с обеих сторон дороги, если только их не разделяет физическая преграда."
+  },
+  {
+    "id": 126,
+    "question_en": "What is the proper hand signal for a right turn?",
+    "question_ru": "Какой ручной сигнал обозначает поворот направо?",
+    "options": [
+      "Left arm straight out",
+      "Left arm bent upward",
+      "Left arm bent downward",
+      "Right arm extended out"
+    ],
+    "correct": "Left arm bent upward",
+    "explanation_en": "Left arm bent upward indicates a right turn.",
+    "explanation_ru": "Левая рука, согнутая вверх, указывает на поворот направо."
+  },
+  {
+    "id": 127,
+    "question_en": "You must dim your headlights when:",
+    "question_ru": "Вы должны переключить фары на ближний свет, когда:",
+    "options": [
+      "Within 500 feet of an oncoming vehicle",
+      "Driving through an intersection",
+      "You see a speed bump",
+      "There are no street lights"
+    ],
+    "correct": "Within 500 feet of an oncoming vehicle",
+    "explanation_en": "To avoid blinding other drivers, dim high beams within 500 feet.",
+    "explanation_ru": "Переключите фары на ближний свет за 500 футов до встречной машины."
+  },
+  {
+    "id": 128,
+    "question_en": "What does a green arrow mean?",
+    "question_ru": "Что означает зелёная стрелка на светофоре?",
+    "options": [
+      "Go if safe",
+      "You must stop",
+      "Protected turn in that direction",
+      "Yield to all traffic"
+    ],
+    "correct": "Protected turn in that direction",
+    "explanation_en": "A green arrow indicates a protected turn in that direction.",
+    "explanation_ru": "Зелёная стрелка означает защищённый поворот в указанном направлении."
+  },
+  {
+    "id": 129,
+    "question_en": "What should you do when driving in a heavy rainstorm?",
+    "question_ru": "Что вы должны делать при движении в сильный дождь?",
+    "options": [
+      "Use high beams",
+      "Pull off the road and stop if needed",
+      "Speed up to get through faster",
+      "Drive with windows down"
+    ],
+    "correct": "Pull off the road and stop if needed",
+    "explanation_en": "In extreme rain, it may be safest to stop until visibility improves.",
+    "explanation_ru": "В сильный дождь лучше остановиться, если видимость плохая."
+  },
+  {
+    "id": 130,
+    "question_en": "If a driver is tailgating you, you should:",
+    "question_ru": "Если водитель сзади едет слишком близко (прижимается), вы должны:",
+    "options": [
+      "Brake suddenly",
+      "Speed up to escape",
+      "Move to another lane if possible",
+      "Honk repeatedly"
+    ],
+    "correct": "Move to another lane if possible",
+    "explanation_en": "Allow tailgaters to pass by changing lanes if it's safe.",
+    "explanation_ru": "При возможности перестройтесь, чтобы дать обогнать прижимающемуся водителю."
+  }
+]

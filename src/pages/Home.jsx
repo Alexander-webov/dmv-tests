@@ -20,8 +20,9 @@ function Home() {
         <MainBlock
           title="Добро пожаловать в русскоязычные тесты для сдачи теоретического экзамена
         в DMV США, штат Нью-Йорк!"
-          componentWithData={<Menu />}
-        />
+        >
+          <Menu />
+        </MainBlock>
       </div>
     </div>
   );
