@@ -1,30 +1,77 @@
 [
   {
     "id": 1,
-    "question_en": "What should you do in situation 1?",
-    "question_ru": "Что вы должны делать в ситуации 1?",
-    "options": [
-      "Option A for question 1",
-      "Option B for question 1",
-      "Option C for question 1",
-      "Option D for question 1"
-    ],
-    "correct": "Option A for question 1",
-    "explanation_en": "This is the explanation for question 1 in English.",
-    "explanation_ru": "Это объяснение к вопросу 1 на русском."
+    "question_en": "What does a red traffic light mean?",
+    "question_ru": "Что означает красный сигнал светофора?",
+    "options": ["Go", "Stop", "Proceed with caution", "Speed up"],
+    "correct": "Stop",
+    "explanation_en": "A red light means you must come to a complete stop before entering the intersection.",
+    "explanation_ru": "Красный свет означает, что вы должны полностью остановиться перед въездом на перекресток."
   },
   {
     "id": 2,
-    "question_en": "What should you do in situation 2?",
-    "question_ru": "Что вы должны делать в ситуации 2?",
+    "question_en": "What should you do at a stop sign?",
+    "question_ru": "Что вы должны сделать у знака STOP?",
     "options": [
-      "Option A for question 2",
-      "Option B for question 2",
-      "Option C for question 2",
-      "Option D for question 2"
+      "Slow down",
+      "Stop completely",
+      "Honk before proceeding",
+      "Speed up"
     ],
-    "correct": "Option A for question 2",
-    "explanation_en": "This is the explanation for question 2 in English.",
-    "explanation_ru": "Это объяснение к вопросу 2 на русском."
+    "correct": "Stop completely",
+    "explanation_en": "You must make a full stop at a stop sign before proceeding.",
+    "explanation_ru": "Вы должны полностью остановиться у знака STOP перед тем, как продолжить движение."
+  },
+  {
+    "id": 3,
+    "question_en": "When approaching a school bus with flashing red lights, you must:",
+    "question_ru": "При приближении к школьному автобусу с мигающими красными огнями вы должны:",
+    "options": [
+      "Proceed slowly",
+      "Stop until the lights stop flashing",
+      "Pass quickly on the left",
+      "Honk before passing"
+    ],
+    "correct": "Stop until the lights stop flashing",
+    "explanation_en": "It is illegal to pass a school bus that is stopped with its red lights flashing.",
+    "explanation_ru": "Обгонять школьный автобус с мигающими красными огнями запрещено. Нужно остановиться до их выключения."
+  },
+  {
+    "id": 4,
+    "question_en": "What does a yield sign mean?",
+    "question_ru": "Что означает знак 'Уступи дорогу'?",
+    "options": [
+      "Come to a full stop",
+      "Let other traffic go first",
+      "Speed up to merge",
+      "Ignore if no traffic"
+    ],
+    "correct": "Let other traffic go first",
+    "explanation_en": "Yield signs indicate that you must let other road users go first.",
+    "explanation_ru": "Знак 'Уступи дорогу' требует пропустить других участников дорожного движения."
+  },
+  {
+    "id": 5,
+    "question_en": "What should you do if an emergency vehicle is approaching with lights and siren on?",
+    "question_ru": "Что делать, если к вам приближается аварийное транспортное средство с сиреной и мигающими огнями?",
+    "options": [
+      "Continue driving normally",
+      "Speed up to get out of the way",
+      "Pull over and stop",
+      "Stop only at an intersection"
+    ],
+    "correct": "Pull over and stop",
+    "explanation_en": "You must pull over to the right and stop for emergency vehicles.",
+    "explanation_ru": "Вы обязаны съехать вправо и остановиться для пропуска аварийного транспорта."
+  },
+
+  {
+    "id": 1,
+    "question_en": "What does a red traffic light mean?",
+    "question_ru": "Что означает красный сигнал светофора?",
+    "options": ["Go", "Stop", "Proceed with caution", "Speed up"],
+    "correct": "Stop",
+    "explanation_en": "A red light means you must come to a complete stop before entering the intersection.",
+    "explanation_ru": "Красный свет означает, что вы должны полностью остановиться перед въездом на перекресток."
   }
 ]

@@ -1,14 +1,10 @@
-import { useState } from "react";
 import { useEffect } from "react";
 import getQuestoins from "../services/getQuestions";
 import Question from "./Question";
+import { useTest } from "../context/TestContext";
 
 function Questions() {
-  const [questions, setQuestions] = useState([]);
-  const [indexCurrentQuestion, setIndexCurrentQuestion] = useState(0);
-
-  const lengthQuestions = questions.length;
-  const currentQuestion = indexCurrentQuestion;
+  const { setQuestions } = useTest();
 
   useEffect(() => {
     const fetchQuestions = async () => {
@@ -22,14 +18,7 @@ function Questions() {
     fetchQuestions();
   }, []);
 
-  return (
-    <Question
-      setIndexCurrentQuestion={setIndexCurrentQuestion}
-      lengthQuestions={lengthQuestions}
-      currentQuestion={currentQuestion}
-      question={questions[indexCurrentQuestion]}
-    />
-  );
+  return <Question />;
 }
 
 export default Questions;

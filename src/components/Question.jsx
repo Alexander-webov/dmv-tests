@@ -2,21 +2,27 @@ import { useEffect, useState } from "react";
 import ButtonForMainBlock from "./ButtonForMainBlock";
 import MainBlock from "./MainBlock";
 import { Link } from "react-router-dom";
+import { useTest } from "../context/TestContext";
 
-function Question({
-  question,
-  setIndexCurrentQuestion,
-  currentQuestion,
-  lengthQuestions,
-}) {
+function Question() {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [isDisable, setIsDisable] = useState(false);
 
+  const {
+    questions,
+    indexCurrentQuestion,
+    setIndexCurrentQuestion,
+    setCountCorrectAnswer,
+  } = useTest();
+  const lengthQuestions = questions.length;
+  const question = questions[indexCurrentQuestion];
   function handelAnswer(answer) {
     if (!selectedAnswer) {
       setSelectedAnswer(answer);
       setIsDisable(true);
-      //setCounterCorrectAnswer((prev) => prev + 1)
+      answer === question.correct
+        ? setCountCorrectAnswer((prevCount) => prevCount + 1)
+        : null;
     }
   }
   function handelIndex() {
@@ -26,11 +32,13 @@ function Question({
   }
 
   if (!question || !Array.isArray(question.options)) return null;
+
   return (
     <div className="max-w-full flex flex-col items-center justify-center text-slate-50">
       <div className="w-full flex items-center justify-between mt-8 ">
         <div>
-          Режим экзамена - Вопрос {currentQuestion + 1} из {lengthQuestions}
+          Режим экзамена - Вопрос {indexCurrentQuestion + 1} из{" "}
+          {lengthQuestions}
         </div>
         <div className="bg-gray-500 p-1 rounded-full">15 : 23</div>
       </div>
@@ -41,9 +49,6 @@ function Question({
           if (selectedAnswer) {
             if (itemMenu === question.correct) {
               status = "correct";
-              selectedAnswer === question.correct
-                ? (counterCorrectAnswer = counterCorrectAnswer + 1)
-                : null;
             } else if (itemMenu === selectedAnswer) {
               status = "wrong";
             }
@@ -63,7 +68,7 @@ function Question({
       </MainBlock>
       <div className="w-full flex justify-between mt-4">
         <span>Завершить </span>
-        {currentQuestion + 1 !== lengthQuestions ? (
+        {indexCurrentQuestion + 1 !== lengthQuestions ? (
           <button
             onClick={handelIndex}
             className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
