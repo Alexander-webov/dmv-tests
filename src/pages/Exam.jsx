@@ -1,4 +1,4 @@
-import Questions from "../components/Questions";
+import Question from "../components/Question";
 import ArrowButton from "../components/ArrowButton";
 import Logo from "../components/Logo";
 
@@ -7,7 +7,7 @@ function Exam() {
     <div>
       <Logo />
       <ArrowButton />
-      <Questions />
+      <Question />
     </div>
   );
 }

@@ -1,38 +1,34 @@
-import { useEffect, useState } from "react";
 import ButtonForMainBlock from "./ButtonForMainBlock";
 import MainBlock from "./MainBlock";
 import { Link } from "react-router-dom";
 import { useTest } from "../context/TestContext";
 
 function Question() {
-  const [selectedAnswer, setSelectedAnswer] = useState(null);
-  const [isDisable, setIsDisable] = useState(false);
-
   const {
     questions,
     indexCurrentQuestion,
-    setIndexCurrentQuestion,
-    setCountCorrectAnswer,
+    startTest,
+    setIndexQuestion,
+    selectedAnswer,
+    isDisable,
   } = useTest();
+
   const lengthQuestions = questions.length;
   const question = questions[indexCurrentQuestion];
+
   function handelAnswer(answer) {
     if (!selectedAnswer) {
-      setSelectedAnswer(answer);
-      setIsDisable(true);
-      answer === question.correct
-        ? setCountCorrectAnswer((prevCount) => prevCount + 1)
-        : null;
+      const isCorrect = answer === question.correct;
+      startTest({ answer, isCorrect, disable: true });
     }
   }
   function handelIndex() {
-    setIndexCurrentQuestion((index) => index + 1);
-    setSelectedAnswer(null);
-    setIsDisable(false);
+    setIndexQuestion();
+    startTest({ answer: null, isCorrect: false, disable: false });
   }
-
+  console.log(isDisable);
   if (!question || !Array.isArray(question.options)) return null;
-
+  console.log(question);
   return (
     <div className="max-w-full flex flex-col items-center justify-center text-slate-50">
       <div className="w-full flex items-center justify-between mt-8 ">
