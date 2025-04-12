@@ -11,7 +11,6 @@ const initialState = {
 };
 
 function reducer(state, action) {
-  console.log(state, action);
   switch (action.type) {
     case "reciveQuestions":
       return {
@@ -27,11 +26,21 @@ function reducer(state, action) {
           : state.countCorrectAnswer,
         selectedAnswer: action.payload.answer,
         isDisable: action.payload.disable,
+        countMistakes: state.questions.length - state.countCorrectAnswer,
       };
     case "setIndexCurrentQuestion":
       return {
         ...state,
         indexCurrentQuestion: state.indexCurrentQuestion + 1,
+      };
+    case "reset":
+      return {
+        ...state,
+        countCorrectAnswer: 0,
+        countMistakes: 0,
+        indexCurrentQuestion: 0,
+        selectedAnswer: null,
+        isDisable: false,
       };
     default:
       return state;
@@ -48,6 +57,7 @@ function TestProvider({ children }) {
       indexCurrentQuestion,
       selectedAnswer,
       isDisable,
+      countMistakes,
     },
     dispatch,
   ] = useReducer(reducer, initialState);
@@ -56,7 +66,9 @@ function TestProvider({ children }) {
     const fetchQuestions = async () => {
       try {
         const res = await getQuestoins();
-        dispatch({ type: "reciveQuestions", payload: res });
+        const shuffled = res.sort(() => 0.5 - Math.random());
+        const selected = shuffled.slice(0, 6);
+        dispatch({ type: "reciveQuestions", payload: selected });
       } catch (error) {
         console.log(error);
       }
@@ -70,7 +82,9 @@ function TestProvider({ children }) {
   function setIndexQuestion() {
     dispatch({ type: "setIndexCurrentQuestion" });
   }
-
+  function resetTest() {
+    dispatch({ type: "reset" });
+  }
   return (
     <TestContext.Provider
       value={{
@@ -81,6 +95,8 @@ function TestProvider({ children }) {
         setIndexQuestion,
         selectedAnswer,
         isDisable,
+        countMistakes,
+        resetTest,
       }}
     >
       {children}

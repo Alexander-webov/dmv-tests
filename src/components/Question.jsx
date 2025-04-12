@@ -2,6 +2,7 @@ import ButtonForMainBlock from "./ButtonForMainBlock";
 import MainBlock from "./MainBlock";
 import { Link } from "react-router-dom";
 import { useTest } from "../context/TestContext";
+import hat from "../assets/images/hat.svg";
 
 function Question() {
   const {
@@ -13,7 +14,6 @@ function Question() {
     isDisable,
   } = useTest();
 
-  const lengthQuestions = questions.length;
   const question = questions[indexCurrentQuestion];
 
   function handelAnswer(answer) {
@@ -26,15 +26,20 @@ function Question() {
     setIndexQuestion();
     startTest({ answer: null, isCorrect: false, disable: false });
   }
-  console.log(isDisable);
+
   if (!question || !Array.isArray(question.options)) return null;
-  console.log(question);
+
   return (
-    <div className="max-w-full flex flex-col items-center justify-center text-slate-50">
-      <div className="w-full flex items-center justify-between mt-8 ">
-        <div>
-          Режим экзамена - Вопрос {indexCurrentQuestion + 1} из{" "}
-          {lengthQuestions}
+    <div className=" flex flex-col items-center justify-center text-slate-50">
+      <div className="flex items-center justify-between mt-8 ">
+        <div className="flex">
+          <img src={hat} alt="hat" className="pr-2" />
+          <div>
+            <span className="text-lg font-semibold">
+              Режим экзамена - Вопрос {indexCurrentQuestion + 1}{" "}
+            </span>{" "}
+            из {questions.length}
+          </div>
         </div>
         <div className="bg-gray-500 p-1 rounded-full">15 : 23</div>
       </div>
@@ -55,6 +60,7 @@ function Question() {
               isDisable={isDisable}
               status={status}
               key={itemMenu}
+              positionTest={"left"}
               onClick={() => handelAnswer(itemMenu)}
             >
               {itemMenu}
@@ -62,19 +68,18 @@ function Question() {
           );
         })}
       </MainBlock>
-      <div className="w-full flex justify-between mt-4">
-        <span>Завершить </span>
-        {indexCurrentQuestion + 1 !== lengthQuestions ? (
+      <div className="w-full mt-4 text-right">
+        {indexCurrentQuestion + 1 !== questions.length ? (
           <button
             onClick={handelIndex}
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            className="bg-[#26AED7] hover:bg-[#30CFFF] text-white font-bold py-2 px-4 rounded"
           >
-            Вперед{" "}
+            Следующий
           </button>
         ) : (
           <Link
             to="/result"
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            className="bg-[#26AED7] hover:bg-[#30CFFF] text-white font-bold py-2 px-4 rounded"
           >
             Смотреть результат
           </Link>
