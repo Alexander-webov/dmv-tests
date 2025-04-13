@@ -2,14 +2,14 @@ import Question from "../components/Question";
 import ButtonBackToHome from "../components/ButtonBackToHome";
 import Logo from "../components/Logo";
 
-function Exam() {
+function RoadSigns() {
   return (
     <div>
       <Logo />
       <ButtonBackToHome />
-      <Question type="car" />
+      <Question type="roadSings" />
     </div>
   );
 }
 
-export default Exam;
+export default RoadSigns;

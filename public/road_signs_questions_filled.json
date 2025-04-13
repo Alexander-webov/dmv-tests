@@ -1,0 +1,1277 @@
+[
+  {
+    "id": 1,
+    "urlImg": "added_lane_99b8539347.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Merge",
+      "Added lane",
+      "Lane ends",
+      "Turn only"
+    ],
+    "correct": "Added lane",
+    "explanation_en": "A new lane is added to the road. No merging required.",
+    "explanation_ru": "На дорогу добавляется новая полоса. Слияние не требуется."
+  },
+  {
+    "id": 2,
+    "urlImg": "advanced_intersection_control_6a58b48884.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Dead end",
+      "Merge",
+      "Intersection ahead",
+      "One way"
+    ],
+    "correct": "Intersection ahead",
+    "explanation_en": "Be prepared for an upcoming intersection.",
+    "explanation_ru": "Приготовьтесь к приближающемуся перекрестку."
+  },
+  {
+    "id": 3,
+    "urlImg": "advisory_speed_f43a0f9294.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Maximum speed",
+      "Advisory speed",
+      "Minimum speed",
+      "School zone"
+    ],
+    "correct": "Advisory speed",
+    "explanation_en": "Recommended speed for safe travel, especially on curves or ramps.",
+    "explanation_ru": "Рекомендуемая скорость для безопасного движения, особенно на поворотах или съездах."
+  },
+  {
+    "id": 4,
+    "urlImg": "bicycle_crossing_9c085cd89d.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Bicycle lane",
+      "Pedestrian only",
+      "No bicycles",
+      "Bicycle crossing"
+    ],
+    "correct": "Bicycle crossing",
+    "explanation_en": "Watch for bicycles crossing the road.",
+    "explanation_ru": "Осторожно, возможен проезд велосипедистов через дорогу."
+  },
+  {
+    "id": 5,
+    "urlImg": "bridge_ices_f8d23ecb0b.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Bridge may be icy",
+      "Narrow bridge",
+      "Bridge out",
+      "Drawbridge"
+    ],
+    "correct": "Bridge may be icy",
+    "explanation_en": "Bridge surfaces may be icy even when roads are clear.",
+    "explanation_ru": "Поверхность моста может быть скользкой, даже если дорога чистая."
+  },
+  {
+    "id": 6,
+    "urlImg": "bump_55c863ba67.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Dip",
+      "Uneven road",
+      "Bump ahead",
+      "Speed bump"
+    ],
+    "correct": "Bump ahead",
+    "explanation_en": "There is a bump in the road ahead. Slow down.",
+    "explanation_ru": "Впереди неровность на дороге. Снизьте скорость."
+  },
+  {
+    "id": 7,
+    "urlImg": "center_lane_only_d5bcc0dc04.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Left turn only",
+      "Center lane only",
+      "Bus lane",
+      "Truck lane only"
+    ],
+    "correct": "Center lane only",
+    "explanation_en": "The center lane is for turning only.",
+    "explanation_ru": "Центральная полоса предназначена только для поворотов."
+  },
+  {
+    "id": 8,
+    "urlImg": "chevron_4a11fca085.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Steep hill",
+      "Winding road",
+      "Sharp curve",
+      "Right turn only"
+    ],
+    "correct": "Sharp curve",
+    "explanation_en": "Indicates a sharp curve in the road. Follow the direction of the chevron.",
+    "explanation_ru": "Обозначает крутой поворот. Следуйте направлению стрелки."
+  },
+  {
+    "id": 9,
+    "urlImg": "combined_speed_limit_a3eb3356e7.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Advisory speed",
+      "Combined speed limit",
+      "Speed limit changes",
+      "Ramp speed"
+    ],
+    "correct": "Speed limit changes",
+    "explanation_en": "Indicates different speed limits for vehicles such as trucks and cars.",
+    "explanation_ru": "Указывает разные ограничения скорости для различных типов транспорта."
+  },
+  {
+    "id": 10,
+    "urlImg": "cross_road_ae0291b143.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Roundabout",
+      "Y-intersection",
+      "Crossroad ahead",
+      "Dead end"
+    ],
+    "correct": "Crossroad ahead",
+    "explanation_en": "You are approaching a four-way intersection.",
+    "explanation_ru": "Вы приближаетесь к перекрестку с четырьмя направлениями движения."
+  },
+  {
+    "id": 11,
+    "urlImg": "curve_1826f8f3f4.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 12,
+    "urlImg": "curve_with_minor_road_94409b2b72.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 13,
+    "urlImg": "deer_crossing_f8c184dccf.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 14,
+    "urlImg": "diesel_fuel_94fb8cd850.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 15,
+    "urlImg": "dip_ccf6b75f1f.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 16,
+    "urlImg": "divided_highway_begins_2d9177b9c1.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 17,
+    "urlImg": "divided_highway_e7052f7cde.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 18,
+    "urlImg": "divided_highway_ends_6a4229b9c7.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 19,
+    "urlImg": "do_not_enter_1c378cbdbd.png",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 20,
+    "urlImg": "do_not_pass_96cc5b5b8c.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 21,
+    "urlImg": "double_direction_arrow_39da8f6760.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 22,
+    "urlImg": "downgrade_605c079f1c.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 23,
+    "urlImg": "end_road_work_37dacffc6b.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 24,
+    "urlImg": "except_right_turn_0b0a1011ca.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 25,
+    "urlImg": "exit_number_sign_advisory_264eca21c3.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 26,
+    "urlImg": "flagger_ahead_dbea912440.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 27,
+    "urlImg": "hospital_51c7965361.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 28,
+    "urlImg": "interchange_guide_sign_0c59dc2d30.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 29,
+    "urlImg": "interchange_guide_sign_2_d62774b5d9.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 30,
+    "urlImg": "keep_right_b530e1775a.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 31,
+    "urlImg": "lane_ends_ahead_88f426a6b5.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 32,
+    "urlImg": "left_only_a5d1643a37.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 33,
+    "urlImg": "left_turn_yield_7008a182f6.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 34,
+    "urlImg": "loose_gravel_180abd3d57.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 35,
+    "urlImg": "low_bridge_obsticale_63549444d8.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 36,
+    "urlImg": "men_working_99c6360259.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 37,
+    "urlImg": "merge_ahead_4f80dddbc9.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 38,
+    "urlImg": "minimum_speed_e3ad5f5e83.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 39,
+    "urlImg": "narrow_bridge_6f39bf4b81.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 40,
+    "urlImg": "no_bicycles_c44c0e662a.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 41,
+    "urlImg": "no_left_turn_3821ef1bd2.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 42,
+    "urlImg": "no_parking_61e349099d.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 43,
+    "urlImg": "no_passing_zone_8983dc286b.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 44,
+    "urlImg": "no_pedestrians_2c165adbf8.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 45,
+    "urlImg": "no_right_turn_5aa2bda847.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 46,
+    "urlImg": "no_trucks_50db801585.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 47,
+    "urlImg": "no_turns_2492a72983.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 48,
+    "urlImg": "no_u_turn_a14ccc4add.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 49,
+    "urlImg": "oncoming_traffic_652feac12d.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 50,
+    "urlImg": "one_direction_arrow_c84b3d69e9.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 51,
+    "urlImg": "one_way_67b5c0dfee.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 52,
+    "urlImg": "pass_with_care_b973f1da6f.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 53,
+    "urlImg": "pavement_ends_3bc000a9f1.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 54,
+    "urlImg": "pedestrian_crossing_c0145760ae.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 55,
+    "urlImg": "railroad_crossing_1d39214ba4.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 56,
+    "urlImg": "railroad_crossing_ahead_03f0716723.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 57,
+    "urlImg": "reserved_parking_25de951411.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 58,
+    "urlImg": "reverse_curve_7625b1ec39.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 59,
+    "urlImg": "reverse_turn_5f2ba40842.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 60,
+    "urlImg": "right_lane_ends_1da0aa1a12.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 61,
+    "urlImg": "right_only_7a1dc4d58e.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 62,
+    "urlImg": "road_closed_1e21e8516f.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 63,
+    "urlImg": "road_closed_ahead_ce4a13b202.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 64,
+    "urlImg": "road_narrows_d45b89b15f.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 65,
+    "urlImg": "road_work_next_766a801c97.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 66,
+    "urlImg": "roundabout_8e1b0e9450.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 67,
+    "urlImg": "school_speed_limit_e1eaad5183.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 68,
+    "urlImg": "side_road_junction_e3f3a54f02.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 69,
+    "urlImg": "slippery_when_wet_2f533f79db.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 70,
+    "urlImg": "slower_keep_right_3a3c15f062.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 71,
+    "urlImg": "speed_limit_d043ed3304.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 72,
+    "urlImg": "stop_here_on_red_b985985565.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 73,
+    "urlImg": "stop_sign_a783d11e67.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 74,
+    "urlImg": "straight_or_left_6b9afbfb11.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 75,
+    "urlImg": "straight_or_right_cbdd40ee21.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 76,
+    "urlImg": "t_junction_5d6ed19753.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 77,
+    "urlImg": "traffic_lights_ahead_a9fdf5c8fc.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 78,
+    "urlImg": "truck_rollover_2177d12678.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 79,
+    "urlImg": "turn_475f794c6e.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 80,
+    "urlImg": "two_way_traffic_858ca9f7cf.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 81,
+    "urlImg": "winding_road_6b1f79f0a1.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 82,
+    "urlImg": "work_zone_bc7871667f.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 83,
+    "urlImg": "wrong_way_a37709e87e.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 84,
+    "urlImg": "y_intersection_c90d28dc22.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  },
+  {
+    "id": 85,
+    "urlImg": "yield_sign_696c55debe.jpg",
+    "question_en": "What does this sign mean?",
+    "question_ru": "Что означает этот дорожный знак?",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "correct": "Option 1",
+    "explanation_en": "Explanation will be added later.",
+    "explanation_ru": "Объяснение будет добавлено позже."
+  }
+]

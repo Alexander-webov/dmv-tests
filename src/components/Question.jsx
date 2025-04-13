@@ -5,9 +5,10 @@ import { Link } from "react-router-dom";
 import { useTest } from "../context/TestContext";
 import hat from "../assets/images/hat.svg";
 
-function Question() {
+function Question({ type = "car" }) {
   const {
     questions,
+    questionsRoadSings,
     indexCurrentQuestion,
     startTest,
     setIndexQuestion,
@@ -15,9 +16,14 @@ function Question() {
     isDisable,
     tick,
   } = useTest();
-
-  const question = questions[indexCurrentQuestion];
-
+  console.log(questionsRoadSings);
+  let question;
+  if (type === "car") {
+    question = questions[indexCurrentQuestion];
+  }
+  if (type === "roadSings") {
+    question = questionsRoadSings[indexCurrentQuestion];
+  }
   function handelAnswer(answer) {
     if (!selectedAnswer) {
       const isCorrect = answer === question.correct;

@@ -1,12 +1,14 @@
 import { createContext, useContext, useReducer, useEffect } from "react";
-import getQuestoins from "../services/getQuestions";
+import getQuestionsForCar from "../services/getQuestionsForCar";
+import getQuestionsForRoadSing from "../services/getQuestionsForRoadSing";
 
 const TestContext = createContext();
 
 const initialState = {
+  questions: [],
+  questionsRoadSings: [],
   countCorrectAnswer: 0,
   countMistakes: 0,
-  questions: [],
   indexCurrentQuestion: 0,
   selectedAnswer: null,
   isDisable: false,
@@ -20,6 +22,11 @@ function reducer(state, action) {
       return {
         ...state,
         questions: action.payload,
+      };
+    case "reciveQuestionsRoadSings":
+      return {
+        ...state,
+        questionsRoadSings: action.payload,
       };
 
     case "start":
@@ -68,6 +75,7 @@ function TestProvider({ children }) {
       isDisable,
       countMistakes,
       timerLeft,
+      questionsRoadSings,
     },
     dispatch,
   ] = useReducer(reducer, initialState);
@@ -75,7 +83,7 @@ function TestProvider({ children }) {
   useEffect(() => {
     const fetchQuestions = async () => {
       try {
-        const res = await getQuestoins();
+        const res = await getQuestionsForCar();
         const shuffled = res.sort(() => 0.5 - Math.random());
         const selected = shuffled.slice(0, 6);
         dispatch({ type: "reciveQuestions", payload: selected });
@@ -85,6 +93,20 @@ function TestProvider({ children }) {
     };
     fetchQuestions();
   }, []);
+
+  useEffect(() => {
+    const fetchQuestions = async () => {
+      try {
+        const res = await getQuestionsForRoadSing();
+        const shuffled = res.sort(() => 0.5 - Math.random());
+        const selected = shuffled.slice(0, 6);
+        dispatch({ type: "reciveQuestionsRoadSings", payload: selected });
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    fetchQuestions();
+  }, []); //reciveQuestionsRoadSings
 
   function startTest({ answer, isCorrect, disable }) {
     dispatch({ type: "start", payload: { answer, isCorrect, disable } });
@@ -113,6 +135,7 @@ function TestProvider({ children }) {
         resetTest,
         tick,
         timerLeft,
+        questionsRoadSings,
       }}
     >
       {children}

@@ -1,7 +1,7 @@
 import axios from "axios"
 
 
-async function getQuestoins() {
+async function getQuestionsForCar() {
     try {
         const res = await axios.get('/dmv_real_all_1-140.json')
         return res.data
@@ -12,4 +12,6 @@ async function getQuestoins() {
 }
 
 
-export default getQuestoins
+export default getQuestionsForCar
+
+//getQuestionsForCar

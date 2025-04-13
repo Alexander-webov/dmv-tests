@@ -3,10 +3,10 @@ import ButtonForMainBlock from "./ButtonForMainBlock";
 
 function Menu() {
   const menuItems = [
-    { to: "/exam", label: "Car экзамен" },
-    { to: "/cdl-test", label: "CDL экзамен" },
-    { to: "/motorcycle-test", label: "Motorcycle экзамен" },
-    { to: "/road-signs", label: "Дорожные знаки" },
+    { to: "/exam", label: "Car TEST" },
+    { to: "/cdl-test", label: "CDL TEST" },
+    { to: "/motorcycle-test", label: "Motorcycle TEST" },
+    { to: "/road-signs", label: "Дорожные знаки TEST" },
   ];
   return (
     <>
