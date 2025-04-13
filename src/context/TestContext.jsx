@@ -1,6 +1,8 @@
 import { createContext, useContext, useReducer, useEffect } from "react";
 import getQuestoins from "../services/getQuestions";
 
+const TestContext = createContext();
+
 const initialState = {
   countCorrectAnswer: 0,
   countMistakes: 0,
@@ -8,9 +10,11 @@ const initialState = {
   indexCurrentQuestion: 0,
   selectedAnswer: null,
   isDisable: false,
+  timerLeft: 20 * 60,
 };
 
 function reducer(state, action) {
+  console.log(state.timerLeft);
   switch (action.type) {
     case "reciveQuestions":
       return {
@@ -41,13 +45,18 @@ function reducer(state, action) {
         indexCurrentQuestion: 0,
         selectedAnswer: null,
         isDisable: false,
+        timerLeft: 20 * 60,
       };
+    case "tick":
+      return {
+        ...state,
+        timerLeft: state.timerLeft - 1,
+      };
+
     default:
       return state;
   }
 }
-
-const TestContext = createContext();
 
 function TestProvider({ children }) {
   const [
@@ -58,6 +67,7 @@ function TestProvider({ children }) {
       selectedAnswer,
       isDisable,
       countMistakes,
+      timerLeft,
     },
     dispatch,
   ] = useReducer(reducer, initialState);
@@ -85,6 +95,10 @@ function TestProvider({ children }) {
   function resetTest() {
     dispatch({ type: "reset" });
   }
+  function tick() {
+    dispatch({ type: "tick" });
+  }
+
   return (
     <TestContext.Provider
       value={{
@@ -97,6 +111,8 @@ function TestProvider({ children }) {
         isDisable,
         countMistakes,
         resetTest,
+        tick,
+        timerLeft,
       }}
     >
       {children}

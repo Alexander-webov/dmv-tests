@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import Exam from "./pages/Exam";
 import bg from "./assets/images/bg.jpg";
 import Result from "./pages/Result";
+import Page404 from "./pages/Page404";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="/exam" element={<Exam />} />
         <Route path="/result" element={<Result />} />
+        <Route path="*" element={<Page404 />} />
       </Routes>
     </div>
   );

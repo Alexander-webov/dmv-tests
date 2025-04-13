@@ -14,7 +14,7 @@ function ButtonForMainBlock({
       <button
         className={`w-full   bg-menuBgButton ${
           !isDisable && "hover:bg-menuBgButtonHover"
-        }  text-white py-6 px-6 rounded-2xl text-xl font-semibold transition duration-300 mb-3 mt-3 list-none text-${positionTest}  ${answerStatus}`}
+        }  text-white h-20 rounded-2xl text-xl font-semibold transition duration-300 mb-3 mt-3 pl-5 list-none text-${positionTest}  ${answerStatus}`}
         onClick={onClick}
         disabled={isDisable}
       >

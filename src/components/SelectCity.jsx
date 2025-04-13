@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Listbox } from "@headlessui/react";
 import { ChevronUpDownIcon, CheckIcon } from "@heroicons/react/20/solid";
 
-const states = ["Нью-Йорк", "Калифорния", "Флорида", "Техас", "Вашингтон"];
+const states = ["Нью-Йорк"]; //, "Калифорния", "Флорида", "Техас", "Вашингтон"
 
 export default function CustomSelect() {
   const [selectedState, setSelectedState] = useState(states[0]);

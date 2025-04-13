@@ -1,4 +1,5 @@
 import ButtonForMainBlock from "./ButtonForMainBlock";
+import Tick from "./Tick";
 import MainBlock from "./MainBlock";
 import { Link } from "react-router-dom";
 import { useTest } from "../context/TestContext";
@@ -12,6 +13,7 @@ function Question() {
     setIndexQuestion,
     selectedAnswer,
     isDisable,
+    tick,
   } = useTest();
 
   const question = questions[indexCurrentQuestion];
@@ -21,6 +23,7 @@ function Question() {
       const isCorrect = answer === question.correct;
       startTest({ answer, isCorrect, disable: true });
     }
+    tick();
   }
   function handelIndex() {
     setIndexQuestion();
@@ -41,7 +44,7 @@ function Question() {
             из {questions.length}
           </div>
         </div>
-        <div className="bg-gray-500 p-1 rounded-full">15 : 23</div>
+        <Tick />
       </div>
       <MainBlock title={question.explanation_en}>
         {question.options.map((itemMenu) => {

@@ -1,10 +1,13 @@
 import { NavLink } from "react-router-dom";
 import arror from "../assets/images/arror-right.svg";
 import { useTest } from "../context/TestContext";
-function ArrowButton() {
+function ButtonBackToHome() {
   const { resetTest } = useTest();
+  function exitAndResetTest() {
+    resetTest();
+  }
   return (
-    <div onClick={() => resetTest()}>
+    <div onClick={exitAndResetTest}>
       <NavLink
         to="/"
         className="inline-block  text-white text-xl transition duration-300 hover:opacity-35"
@@ -18,4 +21,4 @@ function ArrowButton() {
   );
 }
 
-export default ArrowButton;
+export default ButtonBackToHome;

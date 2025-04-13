@@ -3,17 +3,17 @@ import ButtonForMainBlock from "./ButtonForMainBlock";
 
 function Menu() {
   const menuItems = [
-    { to: "/exam", label: "Экзамен" },
-    { to: "/marathon", label: "Марафон" },
-    { to: "/work-on-mistakes", label: "Работа над ошибками " },
-    { to: "/answer", label: "Смотреть все ответы" },
+    { to: "/exam", label: "Car экзамен" },
+    { to: "/cdl-test", label: "CDL экзамен" },
+    { to: "/motorcycle-test", label: "Motorcycle экзамен" },
+    { to: "/road-signs", label: "Дорожные знаки" },
   ];
   return (
     <>
       {menuItems.map((itemMenu) => {
         return (
           <ButtonForMainBlock key={itemMenu.to}>
-            <NavLink to={itemMenu.to} className="block w-full">
+            <NavLink to={itemMenu.to} className="block w-full p-6">
               {itemMenu.label}
             </NavLink>
           </ButtonForMainBlock>

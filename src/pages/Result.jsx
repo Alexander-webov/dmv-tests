@@ -1,11 +1,11 @@
-import ArrowButton from "../components/ArrowButton";
+import ButtonBackToHome from "../components/ButtonBackToHome";
 import fail from "../assets/images/fail.png";
 import success from "../assets/images/success.png";
 import { useTest } from "../context/TestContext";
 import { useNavigate } from "react-router-dom";
 
 function Result() {
-  const { countMistakes, resetTest } = useTest();
+  const { countMistakes, resetTest, countCorrectAnswer } = useTest();
   const navigate = useNavigate();
   return (
     <div className="text-center text-white flex flex-col justify-center ">
@@ -14,7 +14,7 @@ function Result() {
         src={countMistakes > 4 ? fail : success}
         alt="score"
       />
-      {countMistakes > 4 ? (
+      {countCorrectAnswer < 16 ? (
         <div>
           <div className="text-[22px] font-semibold">
             Упс .... Экзамен не сдан
@@ -40,7 +40,7 @@ function Result() {
       >
         Пройти экзамен ещё раз
       </button>
-      <ArrowButton />
+      <ButtonBackToHome />
     </div>
   );
 }

@@ -1,12 +1,12 @@
 import Question from "../components/Question";
-import ArrowButton from "../components/ArrowButton";
+import ButtonBackToHome from "../components/ButtonBackToHome";
 import Logo from "../components/Logo";
 
 function Exam() {
   return (
     <div>
       <Logo />
-      <ArrowButton />
+      <ButtonBackToHome />
       <Question />
     </div>
   );
